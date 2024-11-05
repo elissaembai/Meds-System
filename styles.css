@@ -1,0 +1,68 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    background-color: #004aad;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add some spacing between the logo and title */
+}
+
+.header img {
+    border-radius: 25px;
+    height: 80px; /* Increase the size of the logo */
+    max-width: 100px; /* Prevent the logo from exceeding a maximum width */
+    object-fit: contain; /* Ensure the logo fits well without distortion */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px; /* Increase font size for better balance with the logo */
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Chart Card Styling */
+.chart-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.chart-card h2 {
+    font-size: 18px;
+    color: #004aad;
+}
+
+/* Placeholder for Charts */
+.chart-placeholder {
+    background-color: #e0e7ff;
+    border-radius: 8px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004aad;
+    font-size: 16px;
+    margin-top: 10px;
+}
